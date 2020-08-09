@@ -1,8 +1,6 @@
 const express = require('express')
-
+const dbRouter = require('./data/db-router')
 const server = express()
-
-const dbRouter = require('./data/db-router.js')
 
 server.use(express.json())
 server.use('/api/posts', dbRouter)

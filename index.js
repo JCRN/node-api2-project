@@ -1,4 +1,6 @@
-const app = require('./server.js')
+const server = require('./server')
+
+const app = require('./server')
 
 const PORT = 4000
 
